@@ -17,25 +17,6 @@ enum OBJECT_TYPES
 	// OBJ_...
 };
 
-struct size
-{
-	float length, width, height;
-
-	void Set(float _length, float _width, float _height)
-	{
-		length = _length;
-		width = _width;
-		height = _height;
-	}
-
-	size()
-	{
-		length = 1.f;
-		width = 1.f;
-		height = 1.f;
-	}
-};
-
 struct properties
 {
 	Mtx44 modelProperties;
